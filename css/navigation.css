@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+/* navigation styles
+designed by: jeremy olu
+*/
+
+/*topbar desktop */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.topbar-desktop-navigation {
+    background-color: #E7E7E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+}
+
+ul.topbar-nav-list {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 7px;
+}
+
+li.topbar-nav-list-item {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 2px;
+}
+
+li.topbar-nav-list-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.seperator {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+/*main navigation*/
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.W {
+    margin: 15px;
+}
+
+ul.main-menu-list {
+    display: inline-flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+li.menu-nav-list-item {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 15px;
+
+}
+
+li.menu-nav-list-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-icon {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+}
+
+/* smaller screens */
+
+@media only screen and (max-width: 600px) {
+    body {
+        
+    }
+}
