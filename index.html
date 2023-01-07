@@ -17,8 +17,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.rtl.min.css" integrity="sha512-tC3gnye8BsHmrW3eRP3Nrj/bs+CSVUfzkjOlfLNrfvcbKXFxk5+b8dQCZi9rgVFjDudwipXfqEhsKMMgRZGCDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- fonts dependencies -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
         <!-- custom styles -->
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/navigation.css">
@@ -31,12 +31,12 @@
         <div class="navigation-section">
             <div class="topbar-desktop-navigation">
                 <ul class="topbar-nav-list">
-                    <li class="topbar-nav-list-item"><a href="#">My Account</a> <span class="seperator">|</span></li>
+                    <li class="topbar-nav-list-item"><a href="#"><i class="fa-solid fa-user"></i> My Account</a> <span class="seperator">|</span></li>
                     <li class="topbar-nav-list-item"><a href="#">Blog</a> <span class="seperator">|</span></li>
                     <li class="topbar-nav-list-item"><a href="#">Email Sign Up</a> <span class="seperator">|</span></li>
-                    <li class="topbar-nav-list-item"><a href="#">Help</a></li>
+                    <li class="topbar-nav-list-item"><a href="#">Help</a> <span class="seperator">|</span></li>
+                    <li id="location-selector" class="topbar-nav-list-item"><a href="#"><img src="images/countries/united-kingdom.png" height="15" /> United Kingdom</a> <i class="fa-solid fa-chevron-down"></i></li>
                 </ul>
-                <!-- <div class="location-selector">United Kingdom</div> -->
             </div>
             <header class="menu-navigation">
                 <div class="menu-logo">
@@ -58,8 +58,14 @@
                     <a href=""><i class="fa-solid fa-heart menu-icon"></i></a>
                     <a href=""><i class="fa-solid fa-user menu-icon"></i></a>
                     <a href=""><i class="fa-solid fa-bag-shopping menu-icon"></i></a>
+                    <span id="cart-count" class="cart-count" style="display: block;">0</span>
                 </div>
             </header>
+        </div>
+
+        <div class="main-message-container">
+            <hr />
+            <h3 class="main-message-text">Free standard delivery when you spend £45</h3>
         </div>
 
         <div class="main-hero-container" style="background: url(/images/main-hero.jpg);
@@ -68,6 +74,70 @@
                 <h1 class="hero-title">Transform your body, transform your life</h1>
                 <p class="hero-subtitle">The mens legacy collection is back and better than ever</p>
                 <a href="#" class="button-link">Shop</a>
+            </div>
+        </div>
+
+        <div class="featured-collection-container">
+            <div class="featured-collection-content">
+                <div class="featured-info">
+                    <span class="featured-collection-name">Womens</span>
+                    <h3 class="featured-collection-text">New Releases</h3>
+                </div>
+                <a href="#" class="view-all-link">View All</a>
+            </div>
+            
+            <div class="featured-collection-product-grid">
+                <div class="featured-product-item center">
+                    <div class="product-image-container">
+                        <img src="images/products/placeholder-product-image.png" height="350" width="300" />
+                        <div class="product-metadata">Light Support</div>
+                    </div>
+                    <div class="product-price-header">
+                        <span>New</span>
+                        <p class="product-price">£15.00</p>
+                    </div>
+                    <p class="product-name">Product</p>
+                    <p class="product-description">Description</p>
+                </div>
+                
+                <div class="featured-product-item center">
+                    <div class="product-image-container">
+                        <img src="images/products/placeholder-product-image.png" height="350" width="300" />
+                        <div class="product-metadata">Light Support</div>
+                    </div>
+                    <div class="product-price-header">
+                        <span>New</span>
+                        <p class="product-price">£15.00</p>
+                    </div>
+                    <p class="product-name">Product</p>
+                    <p class="product-description">Description</p>
+                </div>
+
+                <div class="featured-product-item center">
+                    <div class="product-image-container">
+                        <img src="images/products/placeholder-product-image.png" height="350" width="300" />
+                        <div class="product-metadata">Light Support</div>
+                    </div>
+                    <div class="product-price-header">
+                        <span>New</span>
+                        <p class="product-price">£15.00</p>
+                    </div>
+                    <p class="product-name">Product</p>
+                    <p class="product-description">Description</p>
+                </div>
+
+                <div class="featured-product-item center">
+                    <div class="product-image-container">
+                        <img src="images/products/placeholder-product-image.png" height="350" width="300" />
+                        <div class="product-metadata">Light Support</div>
+                    </div>
+                    <div class="product-price-header">
+                        <span>New</span>
+                        <p class="product-price">£15.00</p>
+                    </div>
+                    <p class="product-name">Product</p>
+                    <p class="product-description">Description</p>
+                </div>
             </div>
         </div>
 

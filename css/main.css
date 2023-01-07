@@ -4,6 +4,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 a.button-link {
     background-color: #FFFFFF;
     font-weight: bold;
@@ -17,6 +23,24 @@ a.button-link {
     padding: 5px;
 }
 
+/*main message*/
+
+hr {
+    background: #333333;
+    background-image: linear-gradient(to right, #CCCCCC, #333333, #CCCCCC);
+    border: 0;
+    height: 1px;
+}
+
+.main-message-container {
+    text-align: center;
+    padding: 10px;
+}
+
+h3.main-message-text {
+    font-size: 13px;
+    text-transform: uppercase;
+}
 
 /*hero container*/
 
@@ -44,6 +68,103 @@ p.hero-subtitle {
     font-size: 22px;
     font-weight: 300;
     color: #FFFFFF;
+}
+
+/*featured collection*/
+
+.featured-collection-container {
+    padding: 30px;
+}
+
+.featured-collection-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.featured-collection-name {
+    font-size: 15px;
+    color: #53565a;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3.featured-collection-text {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+a.view-all-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.featured-collection-product-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 35px 0 0 0;
+}
+
+.featured-product-item {
+    max-width: 300px;
+}
+
+.product-image-container {
+    position: relative;
+}
+
+.product-metadata {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    color: #000000;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding: 5px;
+}
+
+.product-price-header {
+    display: flex;
+    justify-content: space-between;
+    border-left: 2px solid #000000;
+    margin-top: 10px;
+}
+
+.product-price-header span {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.product-price {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-name {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #444444;
+}
+
+.product-description {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #6E6E6E;
 }
 
 /* smaller screens */
